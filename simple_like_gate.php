@@ -4,7 +4,7 @@ require 'facebook.php';
 
 $app_id = "YOUR APP ID";
 $app_secret = "YOUR APP SECRET";
-$loginNextPage = 'YOUR FAN PAGE URL'.'?sk=app_'.$app_id;
+$loginNextPage = 'https://www.facebook.com/pages/Try-saja/468992056489506'.'?sk=app_'.$app_id;
 
 $facebook = new Facebook(array(
         'appId' => $app_id,
